@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PKBM Aitam Indonesia - pendidikan kesetaraan dan keterampilan untuk masa depan.">
+  <title>PKBM Aitam Indonesia | Pendidikan Kesetaraan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="PKBM Aitam Indonesia, beranda">
+      <img src="Elemen%20Wabsite/li.png" alt="Logo PKBM Aitam Indonesia">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span><b class="sr-only">Buka menu</b>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Navigasi utama">
+      <a class="nav-link active" href="#beranda">Beranda</a>
+      <div class="nav-item has-dropdown">
+        <button class="nav-link dropdown-trigger" type="button" aria-expanded="false">Profil Kami <span class="chevron"></span></button>
+        <div class="dropdown-menu">
+          <a href="#tentang">Tentang PKBM</a>
+          <a href="#visi">Visi &amp; Misi</a>
+          <a href="#pengajar">Tim Pengajar</a>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-link dropdown-trigger" type="button" aria-expanded="false">Program <span class="chevron"></span></button>
+        <div class="dropdown-menu">
+          <a href="#paket-a">Paket A</a>
+          <a href="#paket-b">Paket B</a>
+          <a href="#paket-c">Paket C</a>
+          <a href="#vokasi">Program Vokasional</a>
+        </div>
+      </div>
+      <a class="nav-link news-link" href="#berita">Berita <span>New</span></a>
+      <a class="nav-link" href="#galeri">Galeri</a>
+      <a class="nav-link" href="#spmb">SPMB</a>
+      <div class="nav-item has-dropdown">
+        <button class="nav-link dropdown-trigger" type="button" aria-expanded="false">Layanan Online <span class="chevron"></span></button>
+        <div class="dropdown-menu dropdown-right">
+          <a href="#pendaftaran">Pendaftaran Online</a>
+          <a href="#jadwal">Jadwal Pembelajaran</a>
+          <a href="#portal">Portal Warga Belajar</a>
+        </div>
+      </div>
+      <button class="search-button" type="button" aria-label="Cari"><span class="search-icon"></span></button>
+      <a class="login-button" href="#masuk"><span class="user-icon"></span>Masuk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="hero-pattern"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Lembaga Pendidikan Kesetaraan &amp; Vokasional</p>
+        <h1>Belajar hari ini,<br><em>siap melangkah</em> esok hari.</h1>
+        <p class="hero-description">Pendidikan yang fleksibel, terjangkau, dan relevan untuk membantu setiap warga belajar meraih mimpinya.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#program">Jelajahi Program <span class="arrow">↗</span></a>
+          <a class="button button-light" href="#pendaftaran">Daftar Sekarang <span class="arrow">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span> Terbuka untuk semua usia</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div><div class="ring ring-one"></div><div class="ring ring-two"></div>
+        <div class="art-card card-top">Pendidikan<br><strong>untuk semua.</strong></div>
+        <div class="art-card card-bottom"><span>01</span> Langkah baru dimulai di sini</div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      </div>
+    </section>
+
+    <section id="program" class="program-strip">
+      <div><p class="section-kicker">Temukan jalurmu</p><h2>Ruang tumbuh untuk<br><span>setiap cita-cita.</span></h2></div>
+      <div class="program-list">
+        <a id="paket-a" href="#pendaftaran"><b>01</b><span>Paket A</span><small>Setara SD</small><i>↗</i></a>
+        <a id="paket-b" href="#pendaftaran"><b>02</b><span>Paket B</span><small>Setara SMP</small><i>↗</i></a>
+        <a id="paket-c" href="#pendaftaran"><b>03</b><span>Paket C</span><small>Setara SMA</small><i>↗</i></a>
+        <a id="vokasi" href="#pendaftaran"><b>04</b><span>Vokasional</span><small>Keterampilan siap kerja</small><i>↗</i></a>
+      </div>
+    </section>
+  </main>
+  <footer id="pendaftaran"><span>PKBM AITAM INDONESIA</span><span>Colomadu · Karanganyar</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
