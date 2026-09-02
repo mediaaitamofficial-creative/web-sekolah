@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d47a1">
+  <link rel="icon" href="Elemen Wabsite/favicon.png" type="image/png">
 </head>
 <body>
   <header class="site-header">
@@ -49,7 +52,9 @@
         </div>
       </div>
       <button class="search-button" type="button" aria-label="Cari"><span class="search-icon"></span></button>
-      <a class="login-button" href="#masuk"><span class="user-icon"></span>Masuk</a>
+      <button class="login-button" type="button" aria-label="Masuk ke akun">
+        <span class="user-icon"></span>Masuk
+      </button>
     </nav>
   </header>
 
@@ -83,8 +88,168 @@
         <a id="vokasi" href="#pendaftaran"><b>04</b><span>Vokasional</span><small>Keterampilan siap kerja</small><i>↗</i></a>
       </div>
     </section>
+
+    <section id="profil" class="profile-section">
+      <div class="container">
+        <div class="section-heading section-heading-left">
+          <p class="section-kicker">Profil sekolah</p>
+          <h2>Membentuk generasi yang <span>cerdas, mandiri, dan berkarakter.</span></h2>
+        </div>
+
+        <div class="profile-layout">
+          <div class="leader-card">
+            <div class="leader-photo">
+              <img src="Elemen Wabsite/F1.jpg" alt="Kepala sekolah PKBM Aitam Indonesia">
+            </div>
+            <div class="leader-info">
+              <p class="role-label">Kepala Sekolah</p>
+              <h3>Ustadz M. Choirul Huda, S.Akun.</h3>
+              <p class="leader-note">Pendidik, pembelajar, dan penggerak semangat literasi serta keterampilan masyarakat.</p>
+            </div>
+          </div>
+
+          <div id="visi" class="vision-panel">
+            <div class="vision-box">
+              <p class="mini-label">Visi</p>
+              <h3>Menjadi lembaga pendidikan yang unggul, profesional, dan berdaya saing.</h3>
+              <p>PKBM Aitam Indonesia berkomitmen menjadi mitra pendidikan yang menghasilkan warga belajar yang berakhlak mulia, cerdas, mandiri, dan siap menghadapi tantangan masa depan.</p>
+            </div>
+            <div class="mission-box">
+              <p class="mini-label">Misi</p>
+              <ul>
+                <li>Menyelenggarakan pendidikan kesetaraan yang berkualitas, fleksibel, dan aksesibel.</li>
+                <li>Mengembangkan potensi peserta didik melalui pembelajaran yang relevan dengan kebutuhan zaman.</li>
+                <li>Menguatkan karakter, literasi, numerasi, dan keterampilan kerja berbasis data dan pelayanan.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="berita" class="news-section">
+      <div class="container">
+        <div class="section-heading section-heading-center">
+          <p class="section-kicker">Berita</p>
+          <h2>Aktivitas dan <span>kabar terbaru</span> PKBM Aitam Indonesia</h2>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card">
+            <span class="badge">Kegiatan</span>
+            <h3>Visitasi Dinas Pendidikan dan Kebudayaan dalam penyerahan IJOB PKBM Aitam Indonesia</h3>
+            <p>PKBM Aitam Indonesia menerima kunjungan dan evaluasi dari Dinas Pendidikan dan Kebudayaan dalam rangka penyerahan IJOB sebagai bentuk dukungan penguatan layanan pendidikan.</p>
+            <a href="#pendaftaran">Baca lebih lanjut</a>
+          </article>
+
+          <article class="news-card">
+            <span class="badge">Lokasi</span>
+            <h3>Lokasi strategis PKBM Aitam Indonesia di Colomadu Karanganyar</h3>
+            <p>Berada di perbatasan Boyolali, Kartasura, Solo, dan Karanganyar, PKBM Aitam Indonesia memudahkan akses bagi warga belajar dari berbagai wilayah sekitar.</p>
+            <a href="#pendaftaran">Baca lebih lanjut</a>
+          </article>
+
+          <article class="news-card">
+            <span class="badge">Komitmen</span>
+            <h3>PKBM Aitam Indonesia berkomitmen menjadi pendidikan yang berorientasi pada pelayanan by data</h3>
+            <p>Dengan pendekatan berbasis data, layanan pendidikan ditujukan agar lebih tepat sasaran, efisien, dan responsif terhadap kebutuhan peserta didik dan masyarakat.</p>
+            <a href="#pendaftaran">Baca lebih lanjut</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="spmb" class="spmb-section">
+      <div class="container spmb-wrap">
+        <div class="spmb-copy">
+          <p class="section-kicker">SPMB</p>
+          <h2>Sistem Penerimaan Murid Baru</h2>
+          <p>Mulai langkah baru Anda bersama PKBM Aitam Indonesia. Proses pendaftaran dibuat sederhana, cepat, dan transparan agar setiap calon warga belajar bisa bergabung dengan mudah.</p>
+          <ul class="spmb-points">
+            <li>Persyaratan pendaftaran yang jelas dan mudah dipahami.</li>
+            <li>Proses seleksi yang transparan dan terstruktur.</li>
+            <li>Dukungan pembimbingan dari tim kami sejak tahap awal.</li>
+          </ul>
+          <a class="button button-primary" href="#pendaftaran">Daftar Sekarang <span class="arrow">↗</span></a>
+        </div>
+
+        <div class="spmb-card" id="pendaftaran">
+          <div class="card-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-gold"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <h3>Pendaftaran SPMB</h3>
+          <form class="spmb-form">
+            <label>
+              Nama Lengkap
+              <input type="text" placeholder="Masukkan nama lengkap">
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="contoh@email.com">
+            </label>
+            <label>
+              Program
+              <select>
+                <option>Paket A</option>
+                <option>Paket B</option>
+                <option>Paket C</option>
+                <option>Program Vokasional</option>
+              </select>
+            </label>
+            <button type="submit">Ajukan Pendaftaran</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer id="pendaftaran"><span>PKBM AITAM INDONESIA</span><span>Colomadu · Karanganyar</span></footer>
+  <footer><span>PKBM AITAM INDONESIA</span><span>Colomadu · Karanganyar</span></footer>
+
+  <div class="auth-modal-backdrop" id="auth-modal" hidden>
+    <div class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+      <button type="button" class="auth-close" aria-label="Tutup modal">&times;</button>
+
+      <div class="auth-tabs" aria-label="Pilihan masuk atau daftar">
+        <button type="button" class="auth-tab is-active" data-auth-tab="login">Masuk</button>
+        <button type="button" class="auth-tab" data-auth-tab="register">Daftar</button>
+      </div>
+
+      <h2 id="auth-title">Masuk</h2>
+
+      <form id="form-login" class="auth-form is-active" novalidate>
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" placeholder="contoh@email.com" required>
+
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" placeholder="Masukkan password" required>
+
+        <button type="submit">Masuk</button>
+        <p class="auth-message" id="login-pesan"></p>
+      </form>
+
+      <form id="form-register" class="auth-form" novalidate>
+        <label for="register-name">Nama Lengkap</label>
+        <input type="text" id="register-name" placeholder="Masukkan nama lengkap" required>
+
+        <label for="register-email">Email</label>
+        <input type="email" id="register-email" placeholder="contoh@email.com" required>
+
+        <label for="register-password">Password</label>
+        <input type="password" id="register-password" placeholder="Buat password" required>
+
+        <label for="register-role">Role</label>
+        <select id="register-role" required>
+          <option value="">Pilih role</option>
+          <option value="user">User</option>
+          <option value="admin">Admin</option>
+        </select>
+
+        <button type="submit">Daftar</button>
+        <p class="auth-message" id="register-pesan"></p>
+      </form>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
-</html>
